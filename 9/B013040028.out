@@ -1,0 +1,41 @@
+3 3 5 9 5 3 4 8 5 3 10 10 8 -1
+ node:   3
+ left:  -1
+right:  -1
+ node:
+ left:
+right:
+ node:   5
+ left:  -1
+right:  -1
+ node:   5  9
+ left:  -1 -1
+right:   9 -1
+ node:   9
+ left:  -1
+right:  -1
+ node:   9  3
+ left:   3 -1
+right:  -1 -1
+ node:   9  3  4
+ left:   3 -1 -1
+right:  -1  4 -1
+ node:   9  3  4  8
+ left:   3 -1 -1 -1
+right:  -1  4  8 -1
+ node:   9  3  4  8  5
+ left:   3 -1 -1  5 -1
+right:  -1  4  8 -1 -1
+ node:   9  4  8  5
+ left:   4 -1  5 -1
+right:  -1  8 -1 -1
+ node:   9  4  8  5 10
+ left:   4 -1  5 -1 -1
+right:  10  8 -1 -1 -1
+ node:   9  4  8  5
+ left:   4 -1  5 -1
+right:  -1  8 -1 -1
+ node:   9  4  5
+ left:   4 -1 -1
+right:  -1  5 -1
+  ans:  9  4  5

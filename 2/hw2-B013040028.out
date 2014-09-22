@@ -1,0 +1,20 @@
+A: {abcdef}
+B: {cefhi}
+A+B: {abcdefhi}
+A*B: {cef}
+A-B: {abd}
+B-A: {hi}
+A contains B
+B contain A
+'h' is not in A
+'h' is in B
+A: {4abcef}
+B: {34}
+A+B: {34abcef}
+A*B: {4}
+A-B: {abcef}
+B-A: {3}
+A contains B
+B contain A
+'g' is not in A
+'g' is not in B
